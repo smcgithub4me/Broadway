@@ -12,9 +12,11 @@ h1 {
 .page_header {
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
-nav {
+nav a {
   font-size: 18px;
 }
 
@@ -44,4 +46,12 @@ h3 {
 .work-section p {
   font-weight: normal;
   font-size: 14px;
+}
+
+/*footer*/
+.footer-nav {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
